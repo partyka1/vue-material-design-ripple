@@ -1,0 +1,12 @@
+$transition: (
+        'fast-out-slow-in': cubic-bezier(0.4, 0, 0.2, 1),
+        'linear-out-slow-in': cubic-bezier(0, 0, 0.2, 1),
+        'fast-out-linear-in': cubic-bezier(0.4, 0, 1, 1),
+        'ease-in-out': cubic-bezier(0.4, 0, 0.6, 1),
+        'fast-in-fast-out': cubic-bezier(0.25, 0.8, 0.25, 1),
+        'swing': cubic-bezier(0.25, 0.8, 0.5, 1)
+) !default;
+$ripple-animation-transition-in: transform .25s cubic-bezier(0.4, 0, 0.2, 1),
+opacity .1s cubic-bezier(0.4, 0, 0.2, 1) !default;
+$ripple-animation-transition-out: opacity .3s cubic-bezier(0.4, 0, 0.2, 1) !default;
+$ripple-animation-visible-opacity: .15 !default;

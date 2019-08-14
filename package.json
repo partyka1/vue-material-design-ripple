@@ -1,0 +1,38 @@
+{
+  "name": "vue-material-design-ripple",
+  "version": "1.0.0",
+  "description": "Ripple directive extracted from Vuetify. Can be used without any dependencies",
+  "main": "dist/vue-material-design-ripple.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "shx rm -rf dist",
+    "build": "npm run clean && cross-env NODE_ENV=production  webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.5.3",
+    "vue": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@types/node": "^12.7.1",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "fibers": "^4.0.1",
+    "happypack": "^5.0.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.22.9",
+    "sass-loader": "^7.2.0",
+    "shx": "^0.3.2",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}
