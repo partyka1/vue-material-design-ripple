@@ -11,6 +11,6 @@ Add material design ripple effect to your Vue project.
 1. You can set ripple color
 2. It doesn't have performance problems
 3. It doesn't require any dependencies
-4. It just works. Without headache and without +100kb to your js build
+4. It just works. Without headache or +100kb to your js build
 ## Demo
 https://codesandbox.io/s/vue-template-2f18v?fontsize=14
