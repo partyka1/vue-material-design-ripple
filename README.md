@@ -1,6 +1,6 @@
 # vue-material-design-ripple
 
-Add material design ripple effect to your project.
+Add material design ripple effect to your Vue project.
 
 ## Why another ripple plugin?
 1. Most of current plugins don't work exactly as google implementation of ripple does
