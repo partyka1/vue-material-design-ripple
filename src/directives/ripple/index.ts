@@ -131,6 +131,7 @@ function isRippleEnabled (value: any): value is true {
 }
 
 function rippleShow (e: MouseEvent | TouchEvent) {
+  e.stopPropagation()
   const value: RippleOptions = {}
   const element = e.currentTarget as HTMLElement
   if (!element || !element._ripple || element._ripple.touched) return
